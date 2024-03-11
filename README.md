@@ -1,1 +1,1 @@
-# MLLM2Text-ReID
+# MLLM4Text-ReID
