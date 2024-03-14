@@ -6,7 +6,14 @@ This is the Pytorch implementation for M<sup>3</sup>L. -->
 ![](figures/framework.png)
 
 ### Requirements
+```
+pytorch 1.9.0
+torchvision 0.10.0
+prettytable
+easydict
+```
 
-- CUDA>=10.0
-- At least four 1080-Ti GPUs 
-- Training Data
+### 1、Construct LUPerson-MLLM
+Download the LUPerson dataset from [here](https://github.com/DengpanFu/LUPerson).
+
+CUHK-PEDES dataset from [here](https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description), ICFG-PEDES dataset from [here](https://github.com/zifyloo/SSAN) and RSTPReid dataset form [here](https://github.com/NjtechCVLab/RSTPReid-Dataset)
