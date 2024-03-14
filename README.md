@@ -3,6 +3,4 @@
 <!-- ### Introduction
 This is the Pytorch implementation for M<sup>3</sup>L. -->
 
-
-![](figures/example.png)
 ![](figures/framework.png)
