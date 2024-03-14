@@ -4,3 +4,9 @@
 This is the Pytorch implementation for M<sup>3</sup>L. -->
 
 ![](figures/framework.png)
+
+### Requirements
+
+- CUDA>=10.0
+- At least four 1080-Ti GPUs 
+- Training Data
