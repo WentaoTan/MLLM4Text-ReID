@@ -22,8 +22,20 @@ easydict
 Download the CUHK-PEDES dataset from [here](https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description), ICFG-PEDES dataset from [here](https://github.com/zifyloo/SSAN) and RSTPReid dataset form [here](https://github.com/NjtechCVLab/RSTPReid-Dataset).
 
 ### 3、Pretrain Model (direct transfer setting)
-To pretrain your model, you can simply run ```sh run.sh --pretrain LUPerson-MLLM```. After the model training is completed, it will provide the performance of direct transfer setting.
+To pretrain your model, you can simply run ```sh run.sh```. After the model training is completed, it will provide the performance of direct transfer setting.
 
 ### 4、Fine-tune the Pretrained Model on Downstream Datasets (fine-tune setting)
-To fine-tune your model, you can simply run ```sh run.sh --finetune checkpoint.pth```. After the model training is completed, it will provide the performance of fine-tune setting.
+To fine-tune your model, you can simply run ```sh finetune.sh --finetune checkpoint.pth```. After the model training is completed, it will provide the performance of fine-tune setting.
 
+### Acknowledgments
+This repo borrows partially from [IRRA]([https://github.com/HeliosZhao/M3L/tree/master](https://github.com/anosorae/IRRA)).
+
+### Citation
+```
+@article{tan2024harnessing,
+  title={Harnessing the Power of MLLMs for Transferable Text-to-Image Person ReID},
+  author={Wentao Tan, Changxing Ding, Jiayu Jiang, Fei Wang, Yibing Zhan, Dapeng Tao},
+  journal={CVPR},
+  year={2024},
+}
+```
