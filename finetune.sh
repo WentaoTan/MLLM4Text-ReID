@@ -1,11 +1,11 @@
 #!/bin/bash
 DATASET_NAME="CUHK-PEDES"
 
-CUDA_VISIBLE_DEVICES=0,2,3 \
+CUDA_VISIBLE_DEVICES=0 \
 python finetune.py \
---name 60w \
+--name finetune \
 --img_aug \
---batch_size 192 \
+--batch_size 64 \
 --MLM \
 --dataset_name $DATASET_NAME \
 --loss_names 'sdm' \
