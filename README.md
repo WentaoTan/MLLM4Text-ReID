@@ -28,7 +28,7 @@ To pretrain your model, you can simply run ```sh run.sh```. After the model trai
 To fine-tune your model, you can simply run ```sh finetune.sh --finetune checkpoint.pth```. After the model training is completed, it will provide the performance of fine-tune setting.
 
 ### Acknowledgments
-This repo borrows partially from [IRRA]([https://github.com/HeliosZhao/M3L/tree/master](https://github.com/anosorae/IRRA)).
+This repo borrows partially from [IRRA](https://github.com/anosorae/IRRA).
 
 ### Citation
 ```
