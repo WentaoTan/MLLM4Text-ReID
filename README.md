@@ -1,4 +1,4 @@
-## [Harnessing the Power of MLLMs for Transferable Text-to-Image Person ReID](https://arxiv.org/abs/2207.03132) (CVPR 2024)
+## Harnessing the Power of MLLMs for Transferable Text-to-Image Person ReID (CVPR 2024)
 
 <!-- ### Introduction
 This is the Pytorch implementation for M<sup>3</sup>L. -->
@@ -19,7 +19,7 @@ easydict
 - Place the generated descriptions in the ```captions``` folder.
 
 ### 2、Prepare Downstream Datasets
-Download the CUHK-PEDES dataset from [here](https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description), ICFG-PEDES dataset from [here](https://github.com/zifyloo/SSAN) and RSTPReid dataset form [here](https://github.com/NjtechCVLab/RSTPReid-Dataset)
+Download the CUHK-PEDES dataset from [here](https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description), ICFG-PEDES dataset from [here](https://github.com/zifyloo/SSAN) and RSTPReid dataset form [here](https://github.com/NjtechCVLab/RSTPReid-Dataset).
 
 ### 3、Pretrain Model (direct transfer setting)
 To pretrain your model, you can simply run ```sh run.sh --pretrain LUPerson-MLLM```. After the model training is completed, it will provide the performance of direct transfer setting.
