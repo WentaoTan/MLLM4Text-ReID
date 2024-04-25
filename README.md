@@ -39,3 +39,7 @@ This repo borrows partially from [IRRA](https://github.com/anosorae/IRRA).
   year={2024},
 }
 ```
+### Contact
+Email: ftwentaotan@mail.scut.edu.cn or 731584671@qq.com
+
+如果可以当然还是希望用中文contact我啦！
