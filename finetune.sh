@@ -8,7 +8,7 @@ python finetune.py \
 --batch_size 64 \
 --MLM \
 --dataset_name $DATASET_NAME \
---loss_names 'sdm' \
---num_epoch 30 \
+--loss_names 'sdm+id+mlm' \
+--num_epoch 60 \
 --root_dir /data0/wentao/data/textReID \
---finetune LuPerson_PEDES
+--finetune The_pretrained_checkpoint
