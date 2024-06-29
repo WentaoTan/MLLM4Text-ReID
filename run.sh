@@ -5,7 +5,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 python train.py \
 --name Pretrain \
 --img_aug \
---batch_size 256 \
+--batch_size 512 \
 --MLM \
 --dataset_name $DATASET_NAME \
 --loss_names 'sdm' \
