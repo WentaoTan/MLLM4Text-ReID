@@ -15,7 +15,7 @@ easydict
 
 ### 1、Construct LUPerson-MLLM
 - Download the LUPerson images from [here](https://github.com/DengpanFu/LUPerson).
-- Use MLLMs to annotate LUPerson images. Take [Qwen](https://github.com/QwenLM/Qwen-VL) as an example. The code for image captioning is provided in the ```captions``` folder. Inside, you will find 46 templates along with static and dynamic instructions. You can download all the descriptions for the final LUPerson-MLLM from [here](https://huggingface.co/datasets/TwT-6/LUPerson-MLLM-captions).
+- Use MLLMs to annotate LUPerson images. Take [Qwen](https://github.com/QwenLM/Qwen-VL) as an example. The code for image captioning is provided in the ```captions``` folder. Inside, you will find 46 templates along with static and dynamic instructions. You can download all the descriptions for the final LUPerson-MLLM from [here](https://huggingface.co/datasets/TwT-6/MLLM4Text-ReID).
 - Place the generated descriptions in the ```captions``` folder.
 
 ### 2、Prepare Downstream Datasets
@@ -25,7 +25,7 @@ Download the CUHK-PEDES dataset from [here](https://github.com/ShuangLI59/Person
 To pretrain your model, you can simply run ```sh run.sh```. After the model training is completed, it will provide the performance of direct transfer setting.
 
 ### 4、Fine-tune the Pretrained Model on Downstream Datasets (fine-tune setting)
-We release the Pretrain Model Checkpoints [here](https://huggingface.co/datasets/TwT-6/LUPerson-MLLM-captions). \
+We release the Pretrain Model Checkpoints [here](https://huggingface.co/datasets/TwT-6/MLLM4Text-ReID). \
 To fine-tune your model, you can simply run ```sh finetune.sh --finetune checkpoint.pth```. After the model training is completed, it will provide the performance of fine-tune setting.
 
 ### Acknowledgments
