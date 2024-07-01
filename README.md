@@ -25,6 +25,7 @@ Download the CUHK-PEDES dataset from [here](https://github.com/ShuangLI59/Person
 To pretrain your model, you can simply run ```sh run.sh```. After the model training is completed, it will provide the performance of direct transfer setting.
 
 ### 4、Fine-tune the Pretrained Model on Downstream Datasets (fine-tune setting)
+We release the Pretrain Model Checkpoints [here](https://huggingface.co/datasets/TwT-6/LUPerson-MLLM-captions).
 To fine-tune your model, you can simply run ```sh finetune.sh --finetune checkpoint.pth```. After the model training is completed, it will provide the performance of fine-tune setting.
 
 ### Acknowledgments
