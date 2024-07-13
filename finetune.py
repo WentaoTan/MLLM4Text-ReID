@@ -64,7 +64,7 @@ if __name__ == '__main__':
             refine_k = k.replace('module.','')
             param_dict[refine_k] = param_dict[k].detach().clone()
             del param_dict[k]
-        model.load_state_dict(param_dict)
+        model.load_state_dict(param_dict, False)
     # model = model.float()
     model.cuda()
     model = nn.DataParallel(model)
